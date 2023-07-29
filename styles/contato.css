@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #00295b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    background-color: #172339;
+    padding: 20px;
+}
+
+.opcoes{
+    list-style: none;
+    color: white;
+    justify-content:center;
+    display: flex;
+    gap: 100px; /*espaçamento entre as opções*/
+    font-size: 20px;
+    
+
+}
+
+.link_home{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline block;
+    transition: background .4s;
+}
+
+.home:hover{
+
+    background-color: #00295b;
+    border-radius: 15px;
+
+}
+
+.contatos{
+    padding: 15px;
+    text-decoration: none;
+    display: inline block;
+    transition: background .4s;
+
+}
+.contatos:hover{
+
+    background-color: #00295b;
+    border-radius: 20px;
+}
+
+
+.cx_pesquisa{
+    display: flex;
+    position: absolute;
+    padding: 2px;
+    top: 33px;
+    right: 8%;
+    width: 160px;
+}
+
+.pesquisa{
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 2%;
+    width: 140px;
+    height: 20px;
+
+}
+
+.pesquisa:focus{
+    width: 10000px;
+    right: 10000px;
+    font-size: 15px;
+}
+
+#logo{
+display: absolute;
+    position: absolute;
+	top: 12px; /*orientação para o topo do menu*/
+    left: 75px;
+}
+
+.t_contato{
+margin-top: 10px;
+display: flex;
+color: white;
+justify-content: center;
+background-color: #172339;
+    padding: 10px;
+}
+
+.dados{
+    background-color: #172339;
+display: flex;
+padding: 200px;
+}
+
+.nome{
+display: flex;
+position: absolute;
+justify-content: center;
+left: 50px;
+top: 180px;
+height: 30px;
+width: 250px;
+text-align: center;
+
+
+}
+
+.email{
+    display: flex;
+    position: absolute;
+    left: 380px;
+    top: 180px;
+    height: 30px;
+width: 250px;
+text-align: center;
+}
+
+.telefone{
+    display: flex;
+    position: absolute;
+    left: 700px;
+    top: 180px;
+    height: 30px;
+width: 250px;
+text-align: center;
+}
+
+.m_contato{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    left: 50px;
+    bottom: 280px;
+    height: 90px;
+width: 900px;
+text-align: center;
+}
+
+.b_enviar{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    left: 450px;
+    bottom: 200px;
+    height: 30px;
+width: 100px;
+
+
+
+}
+
+
+.rodape{
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    background-color: #172339;
+    padding: 10px;
+    gap: 10px;
+}
+
+.link_termos{
+    color: white;
+    position: relative;
+    font-size: 13px;
+    left: 10px;
+    top: 12px;
+}
+
+.r_texto{
+    color: white;
+    position: relative;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    font-size: 7px;
+    left: 440px;
+    top: 10px;
+}

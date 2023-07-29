@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #00295b;
+}
+/*INCIO DO MENU*/
+.menu{
+    background-color: #172339;
+    padding: 20px;
+}
+
+.opcoes{
+    list-style: none;
+    color: white;
+    justify-content:center;
+    display: flex;
+    gap: 100px; /*espaçamento entre as opções*/
+    font-size: 20px;
+    
+
+}
+
+.home{
+    padding: 15px;
+    text-decoration: none;
+    display: inline block;
+    transition: background .4s;
+}
+
+.home:hover{
+
+    background-color: #00295b;
+    border-radius: 15px;
+
+}
+
+.link_contatos{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline block;
+    transition: background .4s;
+
+}
+.contatos:hover{
+
+    background-color: #00295b;
+    border-radius: 20px;
+}
+
+
+.cx_pesquisa{
+    display: flex;
+    position: absolute;
+    padding: 2px;
+    top: 33px;
+    right: 8%;
+    width: 160px;
+}
+
+.pesquisa{
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 2%;
+    width: 140px;
+    height: 20px;
+
+}
+
+.pesquisa:focus{
+    width: 10000px;
+    right: 10000px;
+    font-size: 15px;
+}
+
+#logo{
+display: absolute;
+    position: absolute;
+	top: 12px; /*orientação para o topo do menu*/
+    left: 75px;
+}
+/*FIM DO MENU*/
+
+/*Inicio do Slide*/
+.slide{ /*editar o espaço do slide*/
+background-color: #172339;
+display: flex;
+margin-top: 15px;
+}
+
+.img_slide{ /*editar imagens*/
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    align-items:end;
+    margin-top: 10px;
+    position: relative;
+    right: 60px;
+}
+
+.t1_slide{  /*info da primeira imagem*/
+display: absolute;
+flex-direction: column;
+text-align: left;
+position: relative;
+left: 210px;
+bottom: 385px;
+font-size: 10px;
+color: white;
+flex-wrap: nowrap;
+
+}
+.t2_slide{ /*info da segunda imagem*/
+    display: absolute;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    left: 70px;
+    bottom: 275px;
+    font-size: 10px;
+    color: white;
+    }
+
+    .t3_slide{ /*info da terceira imagem*/
+        display: absolute;
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+        left: 115px;
+        bottom: 170px;
+        font-size: 10px;
+        color: white;
+        }
+
+    
+.video1{
+    display:absolute;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/*FIM DO SLIDE*/
+
+/*COMEÇO DO TOP*/
+.t_top_5{ /*TOP 5 FILMES DA SEMANA*/
+display: flex;
+justify-content: center;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+bottom: 10px;
+font-size: 25px;
+
+
+
+}
+.top_5{ /*imagens dos filmes*/
+display: flex;
+background-color: #172339;
+margin-top: 5px;
+gap: 30px;
+justify-content: space-around;
+padding: 40px;
+bottom: 5px;
+
+}
+
+.info_top_5{
+    display: flex;
+    justify-content: space-around;
+}
+
+.t_lancamento{ /*LANÇAMENTOS*/
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    bottom: 10px;
+    font-size: 25px;
+}
+
+.trailers{
+    display: flex;
+    background-color: #172339;
+    padding: 40px;
+    
+
+}
+
+
+.t_trailers{ /*TRAILERS*/
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    bottom: 10px;
+    font-size: 25px;
+}
+
+.v_trailer1{
+display: absolute;
+position: relative;
+right: 10px;
+}
+
+.v_trailer2{
+    display: absolute;
+    position: relative;
+    left:12px;
+   
+    }
+
+.v_trailer3{
+    display: absolute;
+    position: relative;
+    left: 35px;
+    
+    }
+.rodape{
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    background-color: #172339;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+
+
+
+.link_termos{
+    color: white;
+    position: relative;
+    font-size: 13px;
+    left: 10px;
+    top: 12px;
+}
+
+.r_texto{
+    color: white;
+    position: relative;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    font-size: 7px;
+    left: 440px;
+    top: 10px;
+}
+
+
+
+    
